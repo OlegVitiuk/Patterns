@@ -10,9 +10,17 @@ class main {
         switch (in.nextInt()){
             case 5:
                 break;
-            case 6:
+            case 6: {
                 lab6 laba = new lab6();
                 laba.solveIt();
+                break;
+            }
+            case 7: {
+                lab7 laba = new lab7();
+                System.out.println("Sum = "+laba.getSum());
+                break;
+            }
+            default: System.out.println("not number of lab");
         }
     }
 }
