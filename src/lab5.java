@@ -23,6 +23,7 @@ public class lab5 {
             System.out.println("\nStructural Design Patterns");
             System.out.println("Adapter - 4");
             System.out.println("Decorator - 5");
+            System.out.println("Bridge - 6");
 
             try {
                 value = in.nextInt();
@@ -41,6 +42,8 @@ public class lab5 {
                 case 4: testAdapter();
                         break;
                 case 5: testDecorator();
+                        break;
+                case 6: testBridge();
                         break;
                 default: System.out.println("You have choosen uncorrect number!");
             }
@@ -148,5 +151,13 @@ public class lab5 {
 
         Decorator.Car sportsLuxuryCar = new Decorator.SportsCar(new Decorator.LuxuryCar(new Decorator.BasicCar()));
         sportsLuxuryCar.assemble();
+    }
+
+    private void testBridge(){
+        Bridge.Shape tri = new Bridge.Triangle(new Bridge.RedColor());
+        tri.applyColor();
+
+        Bridge.Shape pent = new Bridge.Pentagon(new Bridge.GreenColor());
+        pent.applyColor();
     }
     }
