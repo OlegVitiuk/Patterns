@@ -24,6 +24,8 @@ public class lab5 {
             System.out.println("Adapter - 4");
             System.out.println("Decorator - 5");
             System.out.println("Bridge - 6");
+            System.out.println("\nBehavioral Design Patterns");
+            System.out.println("Mediator - 7");
 
             try {
                 value = in.nextInt();
@@ -45,6 +47,8 @@ public class lab5 {
                         break;
                 case 6: testBridge();
                         break;
+                case 7: testMediator();
+                    break;
                 default: System.out.println("You have choosen uncorrect number!");
             }
         }
@@ -160,4 +164,20 @@ public class lab5 {
         Bridge.Shape pent = new Bridge.Pentagon(new Bridge.GreenColor());
         pent.applyColor();
     }
+
+    private void testMediator(){
+        Mediator.ChatMediator mediator = new  Mediator.ChatMediatorImpl();
+        Mediator.User user1 = new  Mediator.UserImpl(mediator, "Pankaj");
+        Mediator.User user2 = new  Mediator.UserImpl(mediator, "Lisa");
+        Mediator.User user3 = new  Mediator.UserImpl(mediator, "Saurabh");
+        Mediator.User user4 = new  Mediator.UserImpl(mediator, "David");
+        mediator.addUser(user1);
+        mediator.addUser(user2);
+        mediator.addUser(user3);
+        mediator.addUser(user4);
+
+        user1.send("Hi All");
+    }
+
+
     }
