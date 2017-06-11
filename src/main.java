@@ -8,8 +8,11 @@ class main {
         Scanner in = new Scanner(System.in);
         System.out.println("Choose number for lab");
         switch (in.nextInt()){
-            case 5:
+            case 5: {
+                lab5 laba = new lab5();
+                laba.solveIt();
                 break;
+            }
             case 6: {
                 lab6 laba = new lab6();
                 laba.solveIt();

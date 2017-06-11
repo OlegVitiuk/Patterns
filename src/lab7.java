@@ -6,7 +6,6 @@ import java.util.Scanner;
  */
 public class lab7 {
     private int n;
-    private int m;
     private boolean flag=false;
     private int[][] matrix;
     private int sum;
@@ -19,9 +18,7 @@ public class lab7 {
                 flag = true;
                 System.out.print("n = ");
                 n=in.nextInt();
-                System.out.print("\nm = ");
-                m=in.nextInt();
-                if(n!=m || n>100 || m>100){
+                if(n>100 || n<2){
                     throw new Exception();
                 }
             } catch (Exception e) {
@@ -29,7 +26,7 @@ public class lab7 {
                 flag = false;
             }
         }
-        matrix = new int[n][m];
+        matrix = new int[n][n];
         generateMatrix();
     }
 
@@ -37,7 +34,7 @@ public class lab7 {
         Random rand = new Random();
 
         for (int i=0,leftItem=0,rightItem=n-1;i<n;i++,leftItem++,rightItem--){
-            for (int j=0;j<m;j++){
+            for (int j=0;j<n;j++){
                 int valueToInsert = rand.nextInt(9) + 0;
                 matrix[i][j] =valueToInsert;
                 if(i==leftItem && j==rightItem || i==j) {
