@@ -16,12 +16,13 @@ public class lab5 {
         while (flag){
             int value=0;
             Scanner in = new Scanner(System.in);
-            System.out.println("\nCreational Design Patterns");
+            System.out.println("\n\nCreational Design Patterns");
             System.out.println("Singleton - 1");
             System.out.println("Builder - 2");
             System.out.println("Prototype - 3");
             System.out.println("\nStructural Design Patterns");
             System.out.println("Adapter - 4");
+            System.out.println("Decorator - 5");
 
             try {
                 value = in.nextInt();
@@ -38,6 +39,8 @@ public class lab5 {
                 case 3: testPrototype();
                         break;
                 case 4: testAdapter();
+                        break;
+                case 5: testDecorator();
                         break;
                 default: System.out.println("You have choosen uncorrect number!");
             }
@@ -136,5 +139,14 @@ public class lab5 {
         System.out.println("v3 volts using Class Adapter="+v3.getVolts());
         System.out.println("v12 volts using Class Adapter="+v12.getVolts());
         System.out.println("v120 volts using Class Adapter="+v120.getVolts());
+    }
+
+    private void testDecorator(){
+        Decorator.Car sportsCar = new Decorator.SportsCar(new Decorator.BasicCar());
+        sportsCar.assemble();
+        System.out.println("\n*****");
+
+        Decorator.Car sportsLuxuryCar = new Decorator.SportsCar(new Decorator.LuxuryCar(new Decorator.BasicCar()));
+        sportsLuxuryCar.assemble();
     }
     }

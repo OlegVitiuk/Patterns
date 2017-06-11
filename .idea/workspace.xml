@@ -19,30 +19,57 @@
       <file leaf-file-name="lab5.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/lab5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
+            <state relative-caret-position="-433">
+              <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testSingleton#0;class#lab5#0" expanded="false" />
                 <element signature="method#testBuilder#0;class#lab5#0" expanded="false" />
                 <element signature="method#testPrototype#0;class#lab5#0" expanded="false" />
-                <element signature="class#2421:3389" expanded="false" />
-                <element signature="e#2533#2534#0" expanded="true" />
-                <element signature="e#2598#2599#0" expanded="true" />
-                <element signature="e#2648#2649#0" expanded="true" />
-                <element signature="e#2697#2698#0" expanded="true" />
-                <element signature="e#3018#3019#0" expanded="true" />
-                <element signature="e#3064#3065#0" expanded="true" />
-                <element signature="e#3207#3215#0" expanded="true" />
+                <element signature="class#2544:3512" expanded="false" />
+                <element signature="e#2656#2657#0" expanded="true" />
+                <element signature="e#2721#2722#0" expanded="true" />
+                <element signature="e#2771#2772#0" expanded="true" />
+                <element signature="e#2820#2821#0" expanded="true" />
+                <element signature="e#3141#3142#0" expanded="true" />
+                <element signature="e#3187#3188#0" expanded="true" />
+                <element signature="e#3330#3338#0" expanded="true" />
+                <element signature="method#testAdapter#0;class#lab5#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Decorator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Decorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="class#Car#0;class#Decorator#0" expanded="false" />
+                <element signature="class#BasicCar#0;class#Decorator#0" expanded="false" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="class#CarDecorator#0;class#Decorator#0" expanded="false" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
+                <element signature="class#SportsCar#0;class#Decorator#0" expanded="false" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="class#LuxuryCar#0;class#Decorator#0" expanded="false" />
+                <element signature="e#934#935#0" expanded="true" />
+                <element signature="e#966#967#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Adapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Adapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
+            <state relative-caret-position="-245">
               <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="class#Volt#0;class#Adapter#0" expanded="false" />
@@ -113,6 +140,7 @@
         <option value="$PROJECT_DIR$/src/main.java" />
         <option value="$PROJECT_DIR$/src/Computer.java" />
         <option value="$PROJECT_DIR$/src/Adapter.java" />
+        <option value="$PROJECT_DIR$/src/Decorator.java" />
         <option value="$PROJECT_DIR$/src/lab5.java" />
       </list>
     </option>
@@ -604,12 +632,12 @@
       <workItem from="1496905190220" duration="11414000" />
       <workItem from="1496924474101" duration="280000" />
       <workItem from="1496931752492" duration="1485000" />
-      <workItem from="1497092726802" duration="20375000" />
+      <workItem from="1497092726802" duration="21189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33554000" />
+    <option name="totallyTimeSpent" value="34368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -722,30 +750,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#testSingleton#0;class#lab5#0" expanded="false" />
-            <element signature="method#testBuilder#0;class#lab5#0" expanded="false" />
-            <element signature="method#testPrototype#0;class#lab5#0" expanded="false" />
-            <element signature="class#2421:3389" expanded="false" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2598#2599#0" expanded="true" />
-            <element signature="e#2648#2649#0" expanded="true" />
-            <element signature="e#2697#2698#0" expanded="true" />
-            <element signature="e#3018#3019#0" expanded="true" />
-            <element signature="e#3064#3065#0" expanded="true" />
-            <element signature="e#3207#3215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Adapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
+        <state relative-caret-position="-245">
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="class#Volt#0;class#Adapter#0" expanded="false" />
@@ -764,6 +771,52 @@
             <element signature="e#1112#1113#0" expanded="true" />
             <element signature="e#1167#1168#0" expanded="true" />
             <element signature="method#getVolt#0;class#Adapter#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lab5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433">
+          <caret line="21" column="48" lean-forward="true" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#testSingleton#0;class#lab5#0" expanded="false" />
+            <element signature="method#testBuilder#0;class#lab5#0" expanded="false" />
+            <element signature="method#testPrototype#0;class#lab5#0" expanded="false" />
+            <element signature="class#2544:3512" expanded="false" />
+            <element signature="e#2656#2657#0" expanded="true" />
+            <element signature="e#2721#2722#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2820#2821#0" expanded="true" />
+            <element signature="e#3141#3142#0" expanded="true" />
+            <element signature="e#3187#3188#0" expanded="true" />
+            <element signature="e#3330#3338#0" expanded="true" />
+            <element signature="method#testAdapter#0;class#lab5#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="18" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="class#Car#0;class#Decorator#0" expanded="false" />
+            <element signature="class#BasicCar#0;class#Decorator#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="class#CarDecorator#0;class#Decorator#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="class#SportsCar#0;class#Decorator#0" expanded="false" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="class#LuxuryCar#0;class#Decorator#0" expanded="false" />
+            <element signature="e#934#935#0" expanded="true" />
+            <element signature="e#966#967#0" expanded="true" />
           </folding>
         </state>
       </provider>
