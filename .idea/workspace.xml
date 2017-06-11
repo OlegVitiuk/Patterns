@@ -19,10 +19,11 @@
       <file leaf-file-name="lab5.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab5.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+            <state relative-caret-position="129">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="method#testSingleton#0;class#lab5#0" expanded="false" />
+                <element signature="method#testBuilder#0;class#lab5#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -541,12 +542,12 @@
       <workItem from="1496905190220" duration="11414000" />
       <workItem from="1496924474101" duration="280000" />
       <workItem from="1496931752492" duration="1485000" />
-      <workItem from="1497092726802" duration="18455000" />
+      <workItem from="1497092726802" duration="18777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31634000" />
+    <option name="totallyTimeSpent" value="31956000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -661,10 +662,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lab5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+        <state relative-caret-position="129">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="method#testSingleton#0;class#lab5#0" expanded="false" />
+            <element signature="method#testBuilder#0;class#lab5#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -56,6 +56,8 @@ public class lab5 {
         //without any inconsistent state or arguments management issues
         Computer comp = new Computer.ComputerBuilder("500 GB", "2 GB").setBluetoothEnabled(true)
                 .setGraphicsCardEnabled(true).build();
+        System.out.println("HDD "+comp.getHDD()+ " "+ "RAM "+ comp.getRAM()+" "+
+        "BluetoothEnabled "+comp.isBluetoothEnabled()+" "+"GraphicsCardEnabled "+comp.isGraphicsCardEnabled());
     }
 
 
