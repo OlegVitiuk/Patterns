@@ -26,6 +26,7 @@ public class lab5 {
             System.out.println("Bridge - 6");
             System.out.println("\nBehavioral Design Patterns");
             System.out.println("Mediator - 7");
+            System.out.println("Visitor - 8");
 
             try {
                 value = in.nextInt();
@@ -48,6 +49,8 @@ public class lab5 {
                 case 6: testBridge();
                         break;
                 case 7: testMediator();
+                    break;
+                case 8: testVisitor();
                     break;
                 default: System.out.println("You have choosen uncorrect number!");
             }
@@ -177,6 +180,14 @@ public class lab5 {
         mediator.addUser(user4);
 
         user1.send("Hi All");
+    }
+
+    private void testVisitor(){
+        Visitor.ItemElement[] items = new Visitor.ItemElement[]{new Visitor.Book(20, "1234"),new Visitor.Book(100, "5678"),
+                new Visitor.Fruit(10, 2, "Banana"), new Visitor.Fruit(5, 5, "Apple")};
+
+        int total = Visitor.calculatePrice(items);
+        System.out.println("Total Cost = "+total);
     }
 
 
