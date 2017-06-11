@@ -27,12 +27,14 @@ public class lab5 {
             System.out.println("\nBehavioral Design Patterns");
             System.out.println("Mediator - 7");
             System.out.println("Visitor - 8");
+            System.out.println("Iterator - 9\n");
+            System.out.println("Exit - 10");
 
             try {
                 value = in.nextInt();
             }
             catch (Exception e){
-                System.out.println(e);
+                System.out.println("You have chosen uncorrect number!");
                 continue;
             }
             switch (value){
@@ -49,9 +51,13 @@ public class lab5 {
                 case 6: testBridge();
                         break;
                 case 7: testMediator();
-                    break;
+                        break;
                 case 8: testVisitor();
-                    break;
+                        break;
+                case 9: testIterator();
+                        break;
+                case 10: flag=false;
+                        break;
                 default: System.out.println("You have choosen uncorrect number!");
             }
         }
@@ -190,5 +196,19 @@ public class lab5 {
         System.out.println("Total Cost = "+total);
     }
 
-
+    private void testIterator(){
+        Iterator.ChannelCollection channels = Iterator.populateChannels();
+        Iterator.ChannelIterator baseIterator = channels.iterator(Iterator.ChannelTypeEnum.ALL);
+        while (baseIterator.hasNext()) {
+            Iterator.Channel c = baseIterator.next();
+            System.out.println(c.toString());
+        }
+        System.out.println("******");
+        // Channel Type Iterator
+        Iterator.ChannelIterator englishIterator = channels.iterator(Iterator.ChannelTypeEnum.ENGLISH);
+        while (englishIterator.hasNext()) {
+            Iterator.Channel c = englishIterator.next();
+            System.out.println(c.toString());
+        }
+    }
     }
