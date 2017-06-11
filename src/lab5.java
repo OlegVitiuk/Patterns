@@ -16,10 +16,12 @@ public class lab5 {
         while (flag){
             int value=0;
             Scanner in = new Scanner(System.in);
-            System.out.println("Creational Design Patterns");
-            System.out.println("\nSingleton - 1");
+            System.out.println("\nCreational Design Patterns");
+            System.out.println("Singleton - 1");
             System.out.println("Builder - 2");
             System.out.println("Prototype - 3");
+            System.out.println("\nStructural Design Patterns");
+            System.out.println("Adapter - 4");
 
             try {
                 value = in.nextInt();
@@ -35,6 +37,9 @@ public class lab5 {
                         break;
                 case 3: testPrototype();
                         break;
+                case 4: testAdapter();
+                        break;
+                default: System.out.println("You have choosen uncorrect number!");
             }
         }
     }
@@ -123,5 +128,13 @@ public class lab5 {
         System.out.println("empsNew1 List: "+list1);
     }
 
-
+    private void testAdapter(){
+        Adapter.SocketAdapter sockAdapter = new Adapter.SocketClassAdapterImpl();
+        Adapter.Volt v3 = Adapter.getVolt(sockAdapter,3);
+        Adapter.Volt v12 = Adapter.getVolt(sockAdapter,12);
+        Adapter.Volt v120 = Adapter.getVolt(sockAdapter,120);
+        System.out.println("v3 volts using Class Adapter="+v3.getVolts());
+        System.out.println("v12 volts using Class Adapter="+v12.getVolts());
+        System.out.println("v120 volts using Class Adapter="+v120.getVolts());
+    }
     }
